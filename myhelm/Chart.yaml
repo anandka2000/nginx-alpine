@@ -1,1 +1,10 @@
-# this is a test chart
+apiVersion: v1
+name: helm-nginx-alpine
+description: Install a nginx-app
+keywords:
+- nginx
+- helloworld 
+version: 1.0.0
+maintainers:
+- name: Anand 
+  email: anand.k@xyz.com
