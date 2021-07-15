@@ -1,1 +1,8 @@
-namespace: test
+namespace:
+  name: test
+ 
+image:
+  repository: anandka2000/nginx-alpine
+  tag: v1.0.0
+
+replicaCount: 3
